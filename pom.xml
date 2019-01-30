@@ -8,7 +8,8 @@
     <artifactId>spring-cloud</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>config-server-simple</module>
+
+        <module>config-server</module>
     </modules>
     <name>spring-cloud</name>
     <packaging>pom</packaging>
@@ -19,9 +20,9 @@
         <java.version>1.8</java.version>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
-        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
-        <spring-boot-maven-plugin.version>2.0.5.RELEASE</spring-boot-maven-plugin.version>
+        <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <spring-boot-maven-plugin.version>2.0.6.RELEASE</spring-boot-maven-plugin.version>
     </properties>
 
     <dependencyManagement>
