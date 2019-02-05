@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
         <artifactId>spring-cloud</artifactId>
         <groupId>org.mik.spring.cloud</groupId>
@@ -10,8 +11,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mik.spring.cloud.config</groupId>
-    <artifactId>config-server</artifactId>
-    <name>config-server</name>
+    <artifactId>config-client</artifactId>
+    <name>config-client</name>
 
     <properties>
         <spring-boot-maven-plugin.version>2.0.6.RELEASE</spring-boot-maven-plugin.version>
@@ -28,7 +29,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -48,5 +49,6 @@
             </plugins>
         </pluginManagement>
     </build>
+
 
 </project>
