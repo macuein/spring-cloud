@@ -7,13 +7,14 @@
     <groupId>org.mik.spring.cloud</groupId>
     <artifactId>spring-cloud</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <modules>
-
-        <module>config-server</module>
-        <module>config-client</module>
-    </modules>
     <name>spring-cloud</name>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>eureka-server</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +30,6 @@
         <dependencies>
 
             <dependency>
-                <!-- Import dependency management from Spring Boot -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
